@@ -1,0 +1,8 @@
+nome = str(input('Digite o seu nome: '))
+dividido = nome.split()
+print('='*25)
+print(nome.upper())
+print(nome.lower())
+print('O seu nome tem {} letras.'.format(len(''.join(dividido))))
+print('O seu primeiro nome tem {} letras.'.format(len(dividido[0])))
+print('='*25)

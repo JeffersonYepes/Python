@@ -1,0 +1,5 @@
+n = float(input('Type a value: '))
+print('The Double of {} is {}!'.format(n, n*2))
+print('The Triple of {} is {}!'.format(n, n*3))
+#pow or n**(1/2)
+print('The Square Root of {} is {:.2f}!'.format(n, pow(n, (1/2))))
